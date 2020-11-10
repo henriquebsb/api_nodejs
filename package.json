@@ -1,0 +1,38 @@
+{
+  "name": "rest-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --watch src/ --exec \"ts-node src/startup.ts\" -e ts",
+    "build": "tsc",
+    "test-build": "node dist/startup.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/body-parser": "^1.17.0",
+    "@types/express": "^4.17.0",
+    "@types/jsonwebtoken": "^8.3.2",
+    "@types/mssql": "^4.0.14",
+    "@types/passport": "^1.0.0",
+    "@types/passport-jwt": "^3.0.1",
+    "@types/pdfkit": "^0.7.36",
+    "@types/swagger-jsdoc": "0.0.2",
+    "@types/swagger-ui-express": "^3.0.0",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mssql": "^5.1.0",
+    "nodemon": "^1.19.1",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "pdfkit": "^0.10.0",
+    "swagger-jsdoc": "^3.2.9",
+    "swagger-ui-express": "^4.0.6",
+    "ts-node": "^8.2.0",
+    "typescript": "^3.5.1"
+  }
+}

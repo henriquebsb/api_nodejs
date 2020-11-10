@@ -1,0 +1,24 @@
+{
+  "host": {
+    "development": "localhost",
+    "staging": "xxx.hom.xxx.br",
+    "production": "xxx.xxx.com.br"
+  },
+  "connectionStrings": {
+    "default": {
+      "developmentConnection": { "user": "seu_usuario", "password": "seu_password", "server": "seu_server", "database": "seu_database" },
+      "stagingConnection": { "user": "", "password": "", "server": "", "database": "" },
+      "productionConnection": { "user": "", "password": "", "server": "", "database": "" }
+    },
+    "gestaoUsuario": {
+      "stagingConnection": { "user": "seu_usuario", "password": "seu_password", "server": "seu_server", "database": "seu_database" },
+      "productionConnection": { "user": "seu_usuario", "password": "seu_password", "server": "seu_server", "database": "seu_database" }
+    }
+  },
+  "tokenConfiguration": {
+      "seconds": 7200
+  },
+  "permissoes": { 
+    "sistemaReferencia": "#Sistema.Desenvolvimento" 
+  }
+}
