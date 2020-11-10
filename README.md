@@ -1,7 +1,7 @@
-# Introdução
+## Introdução
 API Simples NodeJS - Versão 1.0.0
 
-# Versão 1.0.0
+## Versão 1.0.0
 #### Concluídas
 - [x] Swagger;
 - [x] JWT;
@@ -11,7 +11,7 @@ API Simples NodeJS - Versão 1.0.0
 - [ ] Implementar CORS na API;
 - [ ] Implementar Arquitetura DDD;
 
-# Get Started!
+## Get Started!
 #### Configurações
 1. Ajustar as conexões com o banco no arquivo appsettings.json > connectionStrings
 
@@ -22,17 +22,17 @@ API Simples NodeJS - Versão 1.0.0
 npm install
 ```
 
-# Swagger
+## Swagger
 * Interface para rotas, Swagger, pode ser acessado pelo link da **api + /swagger/index.html**. Exemplo: http://localhost:29794/swagger/index.html
  
-# Tecnologias utilizadas
+## Tecnologias utilizadas
 - NodeJS 
 - Typescript 
 - Express 4.17.1
 - Swagger 2.0
 - JWT
 
-# Práticas README
+## Práticas README
  - Como fazer um README [makeareadme](https://www.makeareadme.com/)
  - Boas práticas README [readme-best-practices](https://github.com/jehna/readme-best-practices)
  - Art of README [art-of-readme](https://github.com/noffle/art-of-readme/blob/master/README-pt-BR.md)
